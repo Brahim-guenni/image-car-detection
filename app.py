@@ -110,6 +110,8 @@ with st.sidebar:
 # Path Tesseract (à adapter selon ton PC)
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
+pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
+
 # Charger le modèle CNN sauvegardé
 model = load_model("cnn_mnist_model.h5")
 
@@ -300,4 +302,5 @@ else:
                 Notre système analysera automatiquement la plaque d'immatriculation
             </p>
         </div>
+
     """, unsafe_allow_html=True)
