@@ -1,0 +1,9 @@
+# Requirements pour Car Plate Detection + OCR + CNN
+
+matplotlib
+opencv-python
+tensorflow
+scikit-learn
+Pillow
+ipykernel
+
